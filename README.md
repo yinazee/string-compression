@@ -3,6 +3,8 @@ Leetcode Challenge 443 - Javascript
 
 Do not return a new string, mutate the existing string
 
+```
+
 var compress = function(chars) {
     // if (!chars.length) return 0;
     let counter = 0;
@@ -24,3 +26,5 @@ var compress = function(chars) {
             counter = 1;
         }
     }
+    
+    ```
